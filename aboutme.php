@@ -59,12 +59,34 @@
 
   <div class='container'>
   <div class='row'>
-  <h4 class="underline left-align">My Skills</h4>
+  <h4 class="underline left-align">About Me</h4>
   <div class ='aboutMe'>
-  <p id = "intro">
+  <p class = 'aboutMeParagraph'>
 My name is Cam Weston and I am an ambitious and creative software engineer
 who is passionate about technology, leadership and finding ways to change the world. 
   </p>
+  </div>
+</div>
+<p class = 'aboutMeParagraph'>
+Currently I am a student at the University of Vermont, pursuing
+a bachelors of science in computer information systems. This degree holds a strong 
+focus on computer science and managerial business. I will be graduating in the fall of 2019.
+  </p>
+</div>
+  
+
+
+
+
+
+ 
+  <div class="parallax-container parrallax-medium">
+  <div class="parallax"><img src="assets/burlington.jpg"></div>
+  </div>
+
+  <div class='container'>
+  <div class='row'>
+  <h4 class="underline left-align">My Priorities</h4>
     <div class='row'>
       <div class ='center-align container col s12 m12 l4'>
         <div class="priority z-depth-3">
@@ -89,17 +111,8 @@ who is passionate about technology, leadership and finding ways to change the wo
       </div>
     </div>
   </div>
-</div>
-</div>
-</div>
-</div>
-
-
-
- 
-  <div class="parallax-container parrallax-medium">
-  <div class="parallax"><img src="assets/burlington.jpg"></div>
   </div>
+
   <div class='container'>
   <div class='row'>
   <h4 class="underline left-align">My Skills</h4>

@@ -34,7 +34,7 @@ header{
 .aboutMe{
   font-family: 'Arimo', sans-serif;
 }
-#intro{
+.aboutMeParagraph{
   font-size: 25px;
 }
 .skills div{
@@ -51,7 +51,6 @@ header{
   padding:10px;
   background-color: rgba( 110, 179, 238,.25);
   border-radius: 10px;
-  margin-bottom: 50px;
   height:275px;
 }
 .priority h5{
