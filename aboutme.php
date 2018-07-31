@@ -107,7 +107,7 @@ focus on computer science and managerial business. I will be graduating in the f
           <img class ='center responsive-img' src='assets/speedometer.png'>
         <h5>Fast</h5>
         <p>Apps that won't keep you waiting</p>
-        </div>
+        </div> 
       </div>
     </div>
   </div>
