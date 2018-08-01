@@ -84,48 +84,53 @@ focus on computer science and managerial business. I will be graduating in the f
   <div class="parallax"><img src="assets/burlington.jpg"></div>
   </div>
 
+  
   <div class='container'>
   <div class='row'>
   <h4 class="underline left-align">My Priorities</h4>
     <div class='row'>
-      <div class ='center-align container col s12 m12 l4 priority'>
-        <div class="card priorityCard">
-          <div class="card-image">
-            <img src='assets/ux.png'>
-            <span class="card-title">User Experience</span>
-        </div>
-        <div class="card-content">
-          <p>Apps that keep the user entertained and coming back</p>
-        </div>
+      <div class ='center-align container col s12 m12 l4'>
+        <div class="priority-content z-depth-3">
+          <div class="priority-image">
+           <img class ='' src='assets/ux.png'>
+          </div>
+          <div class="priority-title">
+            <h5>User Experience</h5>
+          </div>
+          <div class="priority-text">
+            <p>Apps that keep the user entertained and coming back</p>
+          </div>
       </div>
     </div>
-    <div class ='center-align container col s12 m12 l4 priority'>
-      <div class="card">
-          <div class="card-image">
-            <img src='assets/intuitive.png'>
-          <span class="card-title">User Intuitive</span>
-        </div>
-        <div class="card-content">
-        <p>Apps so easy your grandma could use them</p>
-        </div>
+      <div class ='center-align container col s12 m12 l4'>
+        <div class="priority-content z-depth-3">
+          <div class="priority-image">
+           <img class ='' src='assets/intuitive.png'>
+          </div>
+          <div class="priority-title">
+            <h5>Intuitive</h5>
+          </div>
+          <div class="priority-text">
+            <p>Apps so easy your grandma could use them</p>
+          </div>
       </div>
     </div>
-    <div class ='center-align container col s12 m12 l4 priority'>
-      <div class="card">
-          <div class="card-image">
-            <img src='assets/speedometer.png'>
-          <span class="card-title">Fast</span>
-        </div>
-        <div class="card-content">
-          <p>Apps that won't keep you waiting</p>
-        </div>
+      <div class ='center-align container col s12 m12 l4'>
+        <div class="priority-content z-depth-3">
+          <div class="priority-image">
+           <img class ='' src='assets/speedometer.png'>
+          </div>
+          <div class="priority-title">
+            <h5>Fast</h5>
+          </div>
+          <div class="priority-text">
+            <p>Apps that won't keep you waiting</p>
+          </div>
       </div>
     </div>
   </div>
 </div>
 </div>
-
-
 
 
     
