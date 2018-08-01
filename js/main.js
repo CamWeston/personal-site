@@ -3,10 +3,8 @@ document.addEventListener("DOMContentLoaded", function(){
 	
 	$('.preloader-wrapper')
 		.delay(1700)
-		.fadeOut();
+		.fadeOut(); 
+
+	$('.parallax').parallax();
 });
 
-$(document).ready(function(){
-    $('.parallax').parallax();
-  });
-        

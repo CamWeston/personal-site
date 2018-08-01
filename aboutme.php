@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
-  <link href="css/materialize.css?<?php echo time(); ?>" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css?<?php echo time(); ?>" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
@@ -88,30 +88,48 @@ focus on computer science and managerial business. I will be graduating in the f
   <div class='row'>
   <h4 class="underline left-align">My Priorities</h4>
     <div class='row'>
-      <div class ='center-align container col s12 m12 l4'>
-        <div class="priority z-depth-3">
-          <img class ='responsive-img' src='assets/brain.png'>
-          <h5>User Experience</h6>
+      <div class ='center-align container col s12 m12 l4 priority'>
+        <div class="card priorityCard">
+          <div class="card-image">
+            <img src='assets/ux.png'>
+            <span class="card-title">User Experience</span>
+        </div>
+        <div class="card-content">
           <p>Apps that keep the user entertained and coming back</p>
-       </div>
+        </div>
       </div>
-      <div class ='center-align container col s12 m12 l4'>
-        <div class="priority z-depth-3">  
-          <img class ='responsive-img' src='assets/paint.png'>
-        <h5>Intuitive</h6>
+    </div>
+    <div class ='center-align container col s12 m12 l4 priority'>
+      <div class="card">
+          <div class="card-image">
+            <img src='assets/intuitive.png'>
+          <span class="card-title">User Intuitive</span>
+        </div>
+        <div class="card-content">
         <p>Apps so easy your grandma could use them</p>
+        </div>
       </div>
-      </div>
-      <div class ='center-align container col s12 m12 l4'>
-        <div class="priority z-depth-3">
-          <img class ='center responsive-img' src='assets/speedometer.png'>
-        <h5>Fast</h5>
-        <p>Apps that won't keep you waiting</p>
-        </div> 
+    </div>
+    <div class ='center-align container col s12 m12 l4 priority'>
+      <div class="card">
+          <div class="card-image">
+            <img src='assets/speedometer.png'>
+          <span class="card-title">Fast</span>
+        </div>
+        <div class="card-content">
+          <p>Apps that won't keep you waiting</p>
+        </div>
       </div>
     </div>
   </div>
-  </div>
+</div>
+</div>
+
+
+
+
+    
+   
 
   <div class='container'>
   <div class='row'>
@@ -190,7 +208,7 @@ focus on computer science and managerial business. I will be graduating in the f
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/main.js?<?php echo time(); ?>"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 

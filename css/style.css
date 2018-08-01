@@ -47,15 +47,22 @@ header{
 .list-icon:hover{
   transform: scale(1.3); 
 }
-.priority{
-  padding:10px;
-  background-color: rgba( 110, 179, 238,.25);
-  border-radius: 10px;
-  height:275px;
+.priorityCard
+{
+  border-radius: 10px 10px 0px 0px;
+  height: 300px;
 }
-.priority h5{
-  font-size:2rem;
+.priority p{
+  margin:0;
+  background-color: rgb(240,240,240);
 }
+.priority span{
+  margin:0;
+}
+.priority img {
+  background-color: rgba(76, 203, 255,.1);
+}
+
 .preloader-background {
   display: flex;
   align-items: center;
