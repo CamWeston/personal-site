@@ -4,6 +4,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=.5"/>
   <title>CamWeston.com</title>
+  <link rel="icon" href="assets/logo.png">
+
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
