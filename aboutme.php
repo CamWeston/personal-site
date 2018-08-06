@@ -30,7 +30,7 @@
    <nav>
     <div class="nav-wrapper">
     <div class="container">
-      <div class="row">
+      <div class="row center-align">
       <ul>
         <li class='col'><a href="aboutMe.html">About Me</a></li>
         <li class='col'><a href="workexperience.html">Work Experience</a></li>
@@ -62,19 +62,27 @@
   <div class='container'>
   <div class='row'>
   <h4 class="underline left-align">About Me</h4>
-  <div class ='aboutMe'>
-  <p class = 'aboutMeParagraph'>
-My name is Cam Weston and I am an ambitious and creative software engineer
-who is passionate about technology, leadership and finding ways to change the world. 
-  </p>
   </div>
-</div>
-<p class = 'aboutMeParagraph'>
-Currently I am a student at the University of Vermont, pursuing
-a bachelors of science in computer information systems. This degree holds a strong 
-focus on computer science and managerial business. I will be graduating in the fall of 2019.
-  </p>
-</div>
+  <div class ='aboutMe'>
+    <div class='row'>
+      <p class = 'aboutMeParagraph'>
+        My name is Cam Weston and I am an ambitious and creative software engineer
+        who is passionate about technology, leadership and finding ways to change the world. 
+      </p>
+    </div> 
+    <div class='row center-align'>
+      <img class ='responsive-img' src="assets/me1.jpeg">
+    </div>
+    <div class='row'>
+      <p class = 'aboutMeParagraph'>
+      Currently I am a student at the University of Vermont, pursuing
+      a bachelors of science in computer information systems. This degree holds a strong 
+      focus on computer science and managerial business. I will be graduating in the fall of 2019.
+      </p>
+    </div>
+  </div>
+ </div>
+
   
 
 
@@ -92,12 +100,13 @@ focus on computer science and managerial business. I will be graduating in the f
   <h4 class="underline left-align">My Priorities</h4>
     <div class='row'>
       <div class ='center-align container col s12 m12 l4'>
-        <div class="priority-content z-depth-3">
+        <div class="priority-content">
           <div class="priority-image">
            <img class ='' src='assets/ux.png'>
           </div>
           <div class="priority-title">
             <h5>User Experience</h5>
+            <div class="priority-title-underline"></div>
           </div>
           <div class="priority-text">
             <p>Apps that keep the user entertained and coming back</p>
@@ -105,12 +114,13 @@ focus on computer science and managerial business. I will be graduating in the f
       </div>
     </div>
       <div class ='center-align container col s12 m12 l4'>
-        <div class="priority-content z-depth-3">
+        <div class="priority-content">
           <div class="priority-image">
            <img class ='' src='assets/intuitive.png'>
           </div>
           <div class="priority-title">
             <h5>Intuitive</h5>
+            <div class="priority-title-underline"></div>
           </div>
           <div class="priority-text">
             <p>Apps so easy your grandma could use them</p>
@@ -118,12 +128,13 @@ focus on computer science and managerial business. I will be graduating in the f
       </div>
     </div>
       <div class ='center-align container col s12 m12 l4'>
-        <div class="priority-content z-depth-3">
+        <div class="priority-content">
           <div class="priority-image">
            <img class ='' src='assets/speedometer.png'>
           </div>
           <div class="priority-title">
             <h5>Fast</h5>
+            <div class="priority-title-underline"></div>
           </div>
           <div class="priority-text">
             <p>Apps that won't keep you waiting</p>
