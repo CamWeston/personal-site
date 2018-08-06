@@ -226,18 +226,18 @@
     <div class ='row'>
       <div class ='center-align container col s4 m4 l4'>
         <h5>View My Resume</h5>
-        <a id="resumeIcon" href="assets/resume.pdf">
+        <img src="assets/resume.png">
       </div>
       <div class ='center-align container col s4 m4 l4'>
         <h5>Email Me</h5>
-        <a id="emailIcon" href="mailto:ckweston@uvm.edu">
+        <img src="assets/email.png">
       </div>
       <div class ='center-align container col s4 m4 l4'>
         <h5>Connect With Me</h5>
-        <a id="linkedInIcon" href="https://www.linkedin.com/in/ckweston/">
+        <img src="assets/linkedIn.png">
       </div>
     </div>
-  </div> 
+  </div>
    <div class="footer-copyright">
             <div class="container">
             © 2018 Cameron Weston

@@ -96,20 +96,12 @@ header{
 footer{
   background-color: #808080
 }
-footer a{
+footer img{
   width: 100px;
   height: 100px;
+  transition: all .2s ease-in-out;
 }
-footer a:hover{
-  transform:scale(1.5);
+footer img:hover{
+  transform:scale(1.2);
   cursor: pointer;
-}
-#linkedInIcon{
-  background-image: url("assets/linkedInIcon.png")
-}
-#emailIcon{
-  background-image: url("assets/emailIcon.png")
-}
-#resumeIcon{
-  background-image: url("assets/resumeIcon.png")
 }
