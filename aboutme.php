@@ -221,6 +221,29 @@
     </div> 
   </div>
   </div>
+  <footer class = 'page-footer'>
+  <div class='container'>
+    <div class ='row'>
+      <div class ='center-align container col s4 m4 l4'>
+        <h5>View My Resume</h5>
+        <a id="resumeIcon" href="assets/resume.pdf">
+      </div>
+      <div class ='center-align container col s4 m4 l4'>
+        <h5>Email Me</h5>
+        <a id="emailIcon" href="mailto:ckweston@uvm.edu">
+      </div>
+      <div class ='center-align container col s4 m4 l4'>
+        <h5>Connect With Me</h5>
+        <a id="linkedInIcon" href="https://www.linkedin.com/in/ckweston/">
+      </div>
+    </div>
+  </div> 
+   <div class="footer-copyright">
+            <div class="container">
+            © 2018 Cameron Weston
+            </div>
+          </div>
+  </footer>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

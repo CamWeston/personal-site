@@ -92,3 +92,24 @@ header{
   height:400px;
   margin: auto;
 }
+
+footer{
+  background-color: #808080
+}
+footer a{
+  width: 100px;
+  height: 100px;
+}
+footer a:hover{
+  transform:scale(1.5);
+  cursor: pointer;
+}
+#linkedInIcon{
+  background-image: url("assets/linkedInIcon.png")
+}
+#emailIcon{
+  background-image: url("assets/emailIcon.png")
+}
+#resumeIcon{
+  background-image: url("assets/resumeIcon.png")
+}
