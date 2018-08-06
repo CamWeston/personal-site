@@ -70,9 +70,7 @@
         who is passionate about technology, leadership and finding ways to change the world. 
       </p>
     </div> 
-    <div class='row center-align'>
-      <img class ='responsive-img' src="assets/me1.jpeg">
-    </div>
+   
     <div class='row'>
       <p class = 'aboutMeParagraph'>
       Currently I am a student at the University of Vermont, pursuing
