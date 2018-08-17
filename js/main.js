@@ -1,20 +1,28 @@
-document.addEventListener("DOMContentLoaded", function(){
-	$('.preloader-background').delay(1700).fadeOut('slow');
+/*------------------------------------------*/
+/* Start Jquery code */
+$(function(){ 
+  $(window).on("load", function(){
+    $('.preloader-background').delay(1700).fadeOut('slow');
 	
 	$('.preloader-wrapper')
 		.delay(1700)
 		.fadeOut()
-		.promise()
-		.done(function() {
-		if ($('.workexperience').length > 0) {
- 			M.toast({html: 'Click the logos to find out more about the position! '})	
- 			}
- 		});
+		.promise();
+		
  	$('.parallax').parallax();
-});
- 
-  $(document).ready(function(){
     $('.sidenav').sidenav();
+
+    $('#rumrShowMore').click(function() {
+    	$("#rumrP2").show();
+    	$("#rumrShowMore").hide();
+    	$("#rumrShowLess").show();
+    });
+
+    $("#rumrShowLess").click(function(){
+    		$("#rumrShowLess").hide();
+    		$("#rumrP2").hide();
+    		$("#rumrShowMore").show();
+    	});
   });
-        
+  });
 
