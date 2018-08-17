@@ -1,67 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=.5"/>
-  <title>CamWeston.com</title>
-  <link rel="icon" href="assets/logo.png">
+<?php include("top.php"); ?>
 
-
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css?<?php echo time(); ?>" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
-
-<body>
-  <header class ="header blue z-depth-1 center">
-    <div class='headerTop'>
-    <div class="valign-wrapper">
-    <img class = "circle responsive-img top" src="assets/profilePic.jpeg">
-    <div class="container">
-    <h2>Cam Weston</h1>
-    <h3>Creative. Ambitious. Developer.</h2>
-    </div>
-    </div>
-    </div>
-     </header>
-   <nav>
-    <div class="nav-wrapper">
-    <div class="container">
-      <div class="row center-align">
-      <ul>
-        <li class='col'><a href="aboutMe.html">About Me</a></li>
-        <li class='col'><a href="workexperience.html">Work Experience</a></li>
-        <li class='col'><a href="projects.html">Projects</a></li>
-        <li class='col'><a href="blogs.html">Blogs</a></li>
-      </ul>
-    </div> 
-  </div>
-  </div>
-  </nav>
-
-
-<div class="preloader-background">
-  <div class="preloader-wrapper big active">
-    <div class="spinner-layer spinner-blue-only">
-      <div class="circle-clipper left">
-        <div class="circle"></div>
-      </div>
-      <div class="gap-patch">
-        <div class="circle"></div>
-      </div>
-      <div class="circle-clipper right">
-        <div class="circle"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
+  <h4 class="underline left-align">About Me</h4>
   <div class='container'>
   <div class='row'>
-  <h4 class="underline left-align">About Me</h4>
   </div>
   <div class ='aboutMe'>
     <div class='row'>
@@ -93,9 +34,9 @@
   </div>
 
   
+  <h4 class="underline left-align">My Priorities</h4>
   <div class='container'>
   <div class='row'>
-  <h4 class="underline left-align">My Priorities</h4>
     <div class='row'>
       <div class ='center-align container col s12 m12 l4'>
         <div class="priority-content">
@@ -141,15 +82,18 @@
     </div>
   </div>
 </div>
-</div>
+</div> 
 
 
     
-   
+  <div class="parallax-container parrallax-medium">
+  <div class="parallax"><img src="assets/burlington2.jpg"></div>
+  </div>
 
+   
+  <h4 class="underline left-align">My Skills</h4>
   <div class='container'>
   <div class='row'>
-  <h4 class="underline left-align">My Skills</h4>
   <div class='left-container col s12 m12 l12'>
      <h5>Languages</h5><hr/>
       <ul class = "collection">         
@@ -221,35 +165,4 @@
     </div> 
   </div>
   </div>
-  <footer class = 'page-footer'>
-  <div class='container'>
-    <div class ='row'>
-      <div class ='center-align container col s4 m4 l4'>
-        <h5>View My Resume</h5>
-        <img src="assets/resume.png">
-      </div>
-      <div class ='center-align container col s4 m4 l4'>
-        <h5>Email Me</h5>
-        <img src="assets/email.png">
-      </div>
-      <div class ='center-align container col s4 m4 l4'>
-        <h5>Connect With Me</h5>
-        <img src="assets/linkedIn.png">
-      </div>
-    </div>
-  </div>
-   <div class="footer-copyright">
-            <div class="container">
-            © 2018 Cameron Weston
-            </div>
-          </div>
-  </footer>
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/main.js?<?php echo time(); ?>"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
-  </body>
-</html>
+  <?php include("bottom.php"); ?>

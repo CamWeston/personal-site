@@ -7,7 +7,8 @@
   border-image: linear-gradient(to left, #43cea2, #185a9d);
   border-image-slice: 1;
   transition: .2s all ease-in-out;
-  padding: .25em .5em;
+  padding: .25em .5em; 
+  margin:50px;
 }
 .parrallax-medium{
 	height:250px;
@@ -18,9 +19,25 @@
 nav{
   overflow: hidden;
 }
+
+nav .row{
+  width:90%;
+}
+@media screen and (max-width: 600px){
+nav ul a{
+  font-size: .875rem;
+} 
+}
+
+nav ul a{
+  font-size: 1.5rem;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
 header{
 	padding:0px;
 }
+
 .headerTop{
   background: #43cea2;
   background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
@@ -91,6 +108,22 @@ header{
 .aboutMe img{
   height:400px;
   margin: auto;
+}
+.workexperience{  
+  margin:40px;
+  border-radius: 10px;
+  background: #43cea2;
+  background: -webkit-linear-gradient(to right, rgba(24,90,157,.15), rgba(67,206,162,.15));
+  background: linear-gradient(to right, rgba(24,90,157,.15), rgba(67,206,162,.15));
+
+}
+.workexperience img {
+  padding: 10px;
+  height: 190px;
+  width: 200px;
+}
+.workExperienceHeader{
+  margin:50px;
 }
 
 footer{

@@ -3,8 +3,13 @@ document.addEventListener("DOMContentLoaded", function(){
 	
 	$('.preloader-wrapper')
 		.delay(1700)
-		.fadeOut(); 
-
-	$('.parallax').parallax();
+		.fadeOut()
+		.promise()
+		.done(function() {
+		if ($('.workexperience').length > 0) {
+ 			M.toast({html: 'Click the logos to find out more about the position! '})	
+ 			}
+ 		});
+ 	$('.parallax').parallax();
 });
 
