@@ -19,21 +19,23 @@
 nav{
   overflow: hidden;
 }
-
+.sideNav{
+  display: none;
+}
 nav .row{
   width:90%;
 }
-@media screen and (max-width: 600px){
-nav ul a{
-  font-size: .875rem;
-} 
+@media screen and (max-width: 720px){
+.fullNav{
+  display: none;
+}  
+}
+@media screen and (max-width: 719px){
+.sideNav{
+  display: block;
+}  
 }
 
-nav ul a{
-  font-size: 1.5rem;
-  padding-left: 2.5px;
-  padding-right: 2.5px;
-}
 header{
 	padding:0px;
 }
@@ -115,12 +117,20 @@ header{
   background: #43cea2;
   background: -webkit-linear-gradient(to right, rgba(24,90,157,.15), rgba(67,206,162,.15));
   background: linear-gradient(to right, rgba(24,90,157,.15), rgba(67,206,162,.15));
-
+}
+.workExperience  h3, h6, h5, h4, p {
+  padding:5px;
+  margin-left: 0rem;
 }
 .workexperience img {
   padding: 10px;
   height: 190px;
   width: 200px;
+  transition: all .2s ease-in-out;
+
+}
+.workexperience img:hover{
+  transform: scale(1.1);
 }
 .workExperienceHeader{
   margin:50px;

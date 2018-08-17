@@ -19,25 +19,33 @@
   <header class ="header blue z-depth-1 center">
     <div class='headerTop'>
     <div class="valign-wrapper">
-    <img class = "circle responsive-img top" src="assets/profilePic.jpeg">
+    <img class = "circle responsive-img top" src="assets/profilePic.jpeg"> 
     <div class="container">
     <h2>Cam Weston</h2>
     <h3>Creative. Ambitious. Developer.</h3>
     </div>
     </div>
     </div>
-     </header>
+     </header> 
    <nav>
     <div class="nav-wrapper">
-      <div class="row center-align">
+      <a href="#" data-target="slide-out" class="sidenav-trigger sideNav"><i class="material-icons">menu</i></a>
+      <div class="row center-align fullNav">
       <ul>
-        <li class='col s3'><a href="aboutme.php">About Me</a></li>
-        <li class='col s3'><a href="workexperience.php">Work Experience</a></li>
-        <li class='col s3'><a href="projects.html">Projects</a></li>
-        <li class='col s3'><a href="blogs.html">Blogs</a></li>
+        <li class='col s3'><a class = "waves-effect" href="aboutme.php">About Me</a></li>
+        <li class='col s3'><a class = "waves-effect" href="workexperience.php">Work Experience</a></li>
+        <li class='col s3'><a class = "waves-effect" href="projects.html">Projects</a></li>
+        <li class='col s3'><a class = "waves-effect" href="blogs.html">Blogs</a></li>
       </ul> 
     </div> 
   </div>
+
+  <ul id="slide-out" class="sidenav">
+    <li><a class = "waves-effect" href="aboutme.php"><i class="material-icons">account_circle</i>About Me</a></li>
+    <li><a class = "waves-effect" href="workexperience.php"><i class="material-icons">work</i>Work Experience</a></li>
+    <li><a class = "waves-effect" href="projects.php"><i class="material-icons">computer</i>Projects</a></li>
+    <li><a class = "waves-effect" href="blogs.php"><i class="material-icons">book</i>Blogs</a></li>
+  </ul>
 </nav>
 
 <div class="preloader-background">

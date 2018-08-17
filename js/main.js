@@ -12,4 +12,9 @@ document.addEventListener("DOMContentLoaded", function(){
  		});
  	$('.parallax').parallax();
 });
+ 
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+        
 
