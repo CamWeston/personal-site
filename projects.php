@@ -11,7 +11,7 @@
           <a href="github.com" class="btn-floating halfway-fab waves-effect waves-light red icon1"><i class="material-icons">photo_library</i></a>
           <a href="github.com" class="btn-floating halfway-fab waves-effect waves-light red icon2"><i class="material-icons">code</i></a>
         </div> 
-        <div class="card-content">
+        <div class="card-content"> 
              <p> Have you ever had a roommate that you were incompatabile with that added unecessary stress to your life? Rümr is your answer.</br></br></p>
             <p id = "rumrText">
              Rümr is a roommate finder web app that 4 other students and I created to secure 2nd place at the 2018 UVM State Street IBM Hackathon.
@@ -35,7 +35,6 @@
         <div class="card-content">
           <p>Wanna meet new people in your area while at the same time getting outside and exploring the world? Join Natureventures today!</br></br></p>
           <p id="natureventuresText">
-          
              Natureventures is an exciting social media app that is exclusive to college students and allows them to get outdoors and meet new people. When a user joins Natureventures they gain instant access to "The Wall". Here, all users at the university can post pictures of their outings, from mountain biking to mountaneering. Users can comment and like each others posts. <br><br>
 
              The biggest feature that sets Natureventures apart from the crowd is the "TagAlong!" feature. Using "TagAlong!", users are able to post events like "Going skiing at Sugarbush, VT, on Saturday, who wants to come?". Once this is published, other users can press the tag along event to indicate they have interest, than can talk to each other in the comments to discuss a plan. Bottom line, "TagAlong!" gets students outside and making new friends.<br><br>
@@ -126,6 +125,8 @@
       </div>
     </div>
   </div>
+
+  <div class = "galleryBackdrop"></div>
     
           
 <?php include('bottom.php'); ?>  
