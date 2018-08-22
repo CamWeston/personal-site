@@ -23,6 +23,11 @@ $(function(){
     		$("#rumrP2").hide();
     		$("#rumrShowMore").show();
     	});
+
+    $("#rumrText").readmore();
+    $("#natureventuresText").readmore(); 
+
   });
   });
+
 

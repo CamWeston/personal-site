@@ -34,8 +34,8 @@
       <ul>
         <li class='col s3'><a class = "waves-effect" href="aboutme.php">About Me</a></li>
         <li class='col s3'><a class = "waves-effect" href="workexperience.php">Work Experience</a></li>
-        <li class='col s3'><a class = "waves-effect" href="projects.html">Projects</a></li>
-        <li class='col s3'><a class = "waves-effect" href="blogs.html">Blogs</a></li>
+        <li class='col s3'><a class = "waves-effect" href="projects.php">Projects</a></li>
+        <li class='col s3'><a class = "waves-effect" href="blogs.php">Blogs</a></li>
       </ul> 
     </div> 
   </div>

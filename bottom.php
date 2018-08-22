@@ -33,6 +33,7 @@
   <script src="js/main.js?<?php echo time(); ?>"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/readmore.js"></script>
 
   </body>
 </html>
