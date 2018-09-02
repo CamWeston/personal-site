@@ -34,6 +34,7 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script src="js/readmore.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
 
   </body>
 </html>

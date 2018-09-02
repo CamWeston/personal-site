@@ -75,7 +75,7 @@
         <div class="col s8 m9 l9">
           <h4>CS 148: PHP and SQL</h4>
           <h6>August - Present 2018</h6>
-          <p class ='responsive-text'>Under <a href = "https://www.uvm.edu/cems/cs/profiles/robert_erickson"> Professor Robert Erickson </a>, I assist in teaching the PHP and MySQL course at University of Vermont.
+          <p class ='responsive-text'>Under <a href = "https://www.uvm.edu/cems/cs/profiles/robert_erickson"> Professor Robert Erickson </a>, I assist in teaching design and implementation of relational databases in SQL and PHP.
             This position involves me assiting students during lab and holding office hours where students can ask any PHP or MySQL question. I need to elaborate more on this.
         </p>
         </div>

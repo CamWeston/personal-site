@@ -26,6 +26,11 @@ $(function(){
 
     $("#rumrText").readmore();
     $("#natureventuresText").readmore(); 
+    $("#catamountMarketplaceText").readmore(); 
+
+    $('.galleryRumr').fancybox();
+    $('.galleryNatureventures').fancybox();
+
 
   });
   });
