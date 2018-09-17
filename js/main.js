@@ -27,10 +27,14 @@ $(function(){
     $("#rumrText").readmore();
     $("#natureventuresText").readmore(); 
     $("#catamountMarketplaceText").readmore(); 
+    $("#trumpText").readmore(); 
 
     $('.galleryRumr').fancybox();
     $('.galleryNatureventures').fancybox();
+    $('.galleryMarketplace').fancybox();
+    $('.galleryTrump').fancybox();
 
+    $('.tooltipped').tooltip();
 
   });
   });

@@ -119,7 +119,7 @@
             <div>SQL<a href = "#!" class = "secondary-content">
                <img class = "list-icon circle" src="assets/icons/sqlicon.png"></a></div></li> 
          <li class = "collection-item">
-            <div>HTML 5<a href = "#!" class = "secondary-content">
+            <div>HTML<a href = "#!" class = "secondary-content">
                <img class = "list-icon circle" src="assets/icons/html5icon.png"></a></div></li>
          <li class = "collection-item">
             <div>CSS<a href = "#!" class = "secondary-content">

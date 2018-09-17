@@ -10,7 +10,7 @@
            <img src="assets/projects/rumr.png">
           </a> 
           <span class="card-title hide-on-med-and-down">Rümr</span>
-          <a href="github.com" class="btn-floating halfway-fab waves-effect waves-light red icon2"><i class="material-icons">code</i></a>
+          <a target = "_blank" href="https://github.com/CamWeston/R-mr" class="btn-floating halfway-fab waves-effect waves-light red icon2"><i class="material-icons tooltipped" data-position="bottom" data-tooltip="View my code">code</i></a>
         </div> 
         <div class="card-content"> 
              <p> Have you ever had a roommate that you were incompatabile with that added unecessary stress to your life? Rümr is your answer.</br></br></p>
@@ -44,7 +44,7 @@
            <img src="assets/projects/nv4.png">
           </a> 
           <span class="card-title hide-on-med-and-down">Natureventures</span>
-          <a href="github.com" class="btn-floating halfway-fab waves-effect waves-light red icon2"><i class="material-icons">code</i></a>
+          <a target = "_blank" href="https://github.com/CamWeston/Natureventures" class="btn-floating halfway-fab waves-effect waves-light red icon2"><i class="material-icons tooltipped" data-position="bottom" data-tooltip="View my code">code</i></a>
         </div>
         <div class="card-content">
           <p>Wanna meet new people in your area while at the same time getting outside and exploring the world? Join Natureventures today!</br></br></p>
@@ -68,7 +68,7 @@
            <img src="assets/projects/cm1.png">
           </a>   
           <span class="card-title hide-on-med-and-down">Catamount Marketplace</span>
-          <a href="github.com" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">code</i></a>
+          <a target = "_blank" href="https://github.com/CamWeston/CatamountMarketPlace" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons tooltipped" data-position="bottom" data-tooltip="View my code">code</i></a>
         </div>
         <div class="card-content"> 
           <p>Are you a college student looking for a place to easily sell your unwanted stuff to other students? Catamount Marketplace has your back. </br></p> 
@@ -78,18 +78,18 @@
              To Catamount Marketplace was built on IBM's Bluemix platform using PHP, HTML, CSS and a Cloudant noSql DB. </br></br>
              After a 12 hour code sprint, we presented our work to 100+ students, faculty and judges and recieved 3rd place at the UVM/IBM/State Street 2017 Hackathon competetion. 
            
-          </p>
+          </p> 
         </div>
       </div>
     </div>
     <div class="col s6 m4">
       <div class="card">
         <div class="card-image">
-          <a data-fancybox="galleryTrump" href="assets/projects/cm.png">
+          <a data-fancybox="galleryTrump" href="assets/projects/trumpacolypse.jpg">
            <img src="assets/projects/trumpacolypse.jpg">
           </a>  
           <span class="card-title hide-on-med-and-down">Trumpacolypse</span>
-          <a href="github.com" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">code</i></a>
+          <a target = "_blank" href="https://github.com/CamWeston/Trumpacolypse" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons tooltipped" data-position="bottom" data-tooltip="View my code">code</i></a>
         </div>
         <div class="card-content"> 
           <p>Election season 2016, an "exciting" time for America. In this 2D side scroller you can play as an 8bit version of the Donald, attempting to avoid asteriods because the world is ending. Do you have what it takes?</br></p> 
